@@ -45,6 +45,7 @@ use kernel::create_capability;
 use kernel::hil;
 use kernel::hil::time::{self, Alarm};
 use kernel::hil::uart;
+use kernel::utilities::packet_buffer::{PacketBufferMut, PacketSliceMut};
 
 use capsules_core::console::DEFAULT_BUF_SIZE;
 
